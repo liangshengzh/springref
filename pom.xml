@@ -9,6 +9,8 @@
 
     <modules>
         <module>validator</module>
+        <module>dao</module>
+        <module>ioc</module>
     </modules>
     <dependencyManagement>
         <dependencies>

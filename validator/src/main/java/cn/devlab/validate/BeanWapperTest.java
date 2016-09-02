@@ -3,6 +3,9 @@ package cn.devlab.validate;
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;
 import org.springframework.beans.PropertyValue;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.core.io.Resource;
 
 /**
  * Created by zhonlian on 2016/8/29.
@@ -21,5 +24,6 @@ public class BeanWapperTest {
         company.setPropertyValue("managingDirector", jim.getWrappedInstance());
 
         Float salary = (Float)company.getPropertyValue("managingDirector.salary");
+        BeanDefinition
     }
 }

@@ -11,6 +11,8 @@
         <module>validator</module>
         <module>spel</module>
         <module>aop</module>
+        <module>dao</module>
+        <module>ioc</module>
     </modules>
     <dependencyManagement>
         <dependencies>
